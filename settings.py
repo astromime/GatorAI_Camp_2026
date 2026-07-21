@@ -157,7 +157,7 @@ NPC_DATA = {
 NPC_DATA = {
     "minion": {
         "pos": (800, 400),
-        "graphic": "graphics/objects/minion_dance.png",  # Placeholder using existing asset
+        "graphic": "graphics/objects/minion_dance.gif",  # Placeholder using existing asset
         "dialogue": [
             "Hi there! Welcome to PyDew Valley!",
             "I'm minion, a helper NPC created using Python classes.",
