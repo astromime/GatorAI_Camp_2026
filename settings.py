@@ -155,12 +155,12 @@ NPC_DATA = {
     }
 },
 NPC_DATA = {
-    "Jess": {
+    "minion": {
         "pos": (800, 400),
-        "graphic": "graphics/objects/merchant.png",  # Placeholder using existing asset
+        "graphic": "graphics/objects/minion_dance.png",  # Placeholder using existing asset
         "dialogue": [
             "Hi there! Welcome to PyDew Valley!",
-            "I'm Jess, a helper NPC created using Python classes.",
+            "I'm minion, a helper NPC created using Python classes.",
             "Try editing settings.py to change what I say, or create your own custom NPC!"
         ]
     }
