@@ -155,8 +155,8 @@ clearly-typed values students can read and change:
 
 ```python
 # @STUDENT-EDIT-Day1-3: Change the game window size
-SCREEN_WIDTH = 1280   # integer
-SCREEN_HEIGHT = 720   # integer
+SCREEN_WIDTH = 1280   # integer, default 1280
+SCREEN_HEIGHT = 720   # integer, default 720
 # @STUDENT-EDIT-Day1-2: Customize the game window title (TITLE)
 TITLE = "PyDew Valley: GAIC 26"   # string
 # @STUDENT-EDIT-Day1-4: Experiment with different background colors
