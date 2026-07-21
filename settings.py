@@ -23,7 +23,7 @@ from pygame.math import Vector2
 SCREEN_WIDTH = 1280  # Width of game window in pixels
 SCREEN_HEIGHT = 720  # Height of game window in pixels
 # @STUDENT-EDIT-Day1-2: Customize the game window title (TITLE)
-TITLE = "PyDew Valley: GAIC 26"
+TITLE = "GAIC 26 Game by Auntie Jess"
 # @STUDENT-EDIT-Day1-4: Experiment with different background colors
 WATER_COLOR = "#71ddee"  # Hex color code for the water background
 TILE_SIZE = 64  # Size of each tile in our game world (pixels)
@@ -153,5 +153,15 @@ NPC_DATA = {
             "Try editing settings.py to change what I say, or create your own custom NPC!"
         ]
     }
+},
+NPC_DATA = {
+    "Jess": {
+        "pos": (800, 400),
+        "graphic": "graphics/objects/merchant.png",  # Placeholder using existing asset
+        "dialogue": [
+            "Hi there! Welcome to PyDew Valley!",
+            "I'm Jess, a helper NPC created using Python classes.",
+            "Try editing settings.py to change what I say, or create your own custom NPC!"
+        ]
+    }
 }
-
